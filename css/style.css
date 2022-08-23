@@ -1,0 +1,21 @@
+:root{
+    --background--color: rgb(31, 29, 29)
+
+}
+
+body{
+    background-color: var(--background--color);
+}
+
+.lista__conhecimento{
+    display: flex;
+}
+
+.item__imagem{
+    width: 250px;
+    display: block;
+}
+
+.lista__item{
+    width: calc(100%/4);
+}

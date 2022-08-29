@@ -1,0 +1,13 @@
+.perfil{
+    display: flex;
+    padding: 1em 0;
+}
+
+.perfil__sobre{
+    width: 65%;
+}
+
+.perfil__imagem{
+    border-radius: 300px;
+    width: 350px;
+}

@@ -1,7 +1,11 @@
+@import url("estilos/perfil.css");
+@import url("estilos/conhecimentos.css");
+@import url("estilos/projetos.css");
+
 :root{
-    --background--color: #00030C;
+    --background--color: #EBECEE;
     --font--padrao:  'Roboto', sans-serif;
-    --texto--padrao: #FFFFFF;
+    --branco: #FFFFFF;
     --azul--padrao: #63adf2;
     --azul--secundario: #A7CCED;
     --amarelo: #f3ca40;
@@ -12,7 +16,7 @@
 
 body{
     background-color: var(--background--color);
-    color: var(--texto--padrao);
+    color: black;
     font-family: var(--font--padrao);
 
 }
@@ -22,42 +26,6 @@ body{
     font-size: 40px;
     margin: 50px 0;
     color: var(--azul--padrao);
-}
-
-.conhecimentos{
-    text-align: center;
-    background-color: rgb(62, 59, 59);
-    padding: 15px 0;
-    
-}
-
-.lista__conhecimento{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.item__imagem{
-    width: 250px;
-    display: block;
-    margin: auto;
-}
-
-.lista__item{
-    justify-content: center;
-    margin: auto;
-}
-
-.lista__item a{
-    justify-self: center;
-    margin: auto;
-    text-decoration: none;
-    color: var(--texto--padrao);
-}
-
-.lista__item a:hover{
-    color: var(--azul--secundario);
 }
 
 .container__projetos{
@@ -77,8 +45,4 @@ body{
     width: 500px;
     height: 300px;
     border-radius: 25px;
-}
-
-.projeto__imagem--referencia{
-    margin-top: 50px;
 }

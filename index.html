@@ -4,19 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <a href="https://www.flaticon.com/free-icons/after-effects" title="after effects icons">After effects icons created by Maniprasanth - Flaticon</a>
-    
-    
-    
-    
-    
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
     
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -25,7 +18,7 @@
 </head>
 <body>
     <header>
-        <h1>LOGO</h1>
+        <h1>Jonathan Hora</h1>
         <nav>
             <ul>
                 <li> <a href=""> Sobre mim</a></li>
@@ -37,103 +30,94 @@
     </header>
 
     <main>
-        <section class="container">
-            <div class="container__sobre">
-                <h2 class="container__titulo">Sobre mim</h2>
-                <p class="container__texto">Formado em ciência da computação em junho de 2021.</p>
-                <p class="container__texto">Atualmente atuo como desenvolvedor back-end, utilizando C# .NET, querendo migrar para front-end.</p>
+        <section class="perfil">
+            <div class="perfil__sobre">
+                <h2 class="perfil__titulo">Sobre mim</h2>
+                <p class="perfil__texto">Formado em ciência da computação em junho de 2021.</p>
+                <p class="perfil__texto">Atualmente atuo como desenvolvedor back-end, utilizando C# .NET, querendo migrar para front-end.</p>
             </div>
+            <img src="images/65188908.jpg" alt="foto perfil" class="perfil__imagem">
         </section>
 
-        <section class="container conhecimentos">
-            <h2>Conhecimentos</h2>
+        <section class="conhecimentos">
+            <h2 class="conhecimentos__titulo">Conhecimentos</h2>
             <ul class="lista__conhecimento">
-                <li class="lista__item">
+                <li class="conhecimentos__item">
                     <img class="item__imagem" src="images/logos/html-5.png" alt="logo html5">
-                    <a href="https://www.flaticon.com/br/icones-gratis/html-5" title="html 5 ícones" target="_blank">Html 5 ícones criados por Freepik - Flaticon</a>
+                    <a class="conhecimento__referencia" href="https://www.flaticon.com/br/icones-gratis/html-5" title="html 5 ícones" target="_blank">Html 5 ícones criados por Freepik - Flaticon</a>
                 </li>
-                <li class="lista__item">
-                    <img class="item__imagem" src="images/logos/css.png" alt="logo CSS 3">
-                    <a href="https://www.flaticon.com/br/icones-gratis/css-3" title="css 3 ícones" target="_blank">Css 3 ícones criados por Freepik - Flaticon</a>
+                <li class="conhecimentos__item">
+                    <img class="item__imagem" src="images/logos/css-3.png" alt="logo CSS 3">
+                    <a class="conhecimento__referencia" href="https://www.flaticon.com/br/icones-gratis/css-3" title="css 3 ícones">Css 3 ícones criados por Freepik - Flaticon</a>
                 </li>
-                <li class="lista__item">
+                <li class="conhecimentos__item">
                     <img class="item__imagem" src="images/logos/script-java.png" alt="logo JavaScript">
-                    <a href="https://www.flaticon.com/br/icones-gratis/java" title="java ícones" target="_blank">Java ícones criados por Pixel perfect - Flaticon</a>
+                    <a class="conhecimento__referencia" href="https://www.flaticon.com/br/icones-gratis/java" title="java ícones" target="_blank">Java ícones criados por Pixel perfect - Flaticon</a>
                 </li>
-                <li class="lista__item">
+                <li class="conhecimentos__item">
                     <img class="item__imagem" src="images/logos/do-sustenido.png" alt="logo C sharp">
-                    <a href="https://www.flaticon.com/br/icones-gratis/c-afiado" title="c afiado ícones">C afiado ícones criados por Freepik - Flaticon</a>
+                    <a class="conhecimento__referencia" href="https://www.flaticon.com/br/icones-gratis/c-afiado" title="c afiado ícones">C afiado ícones criados por Freepik - Flaticon</a>
                 </li>
-            </ul>
-            <ul class="lista__conhecimento">
-                <li class="lista__item">
+                <li class="conhecimentos__item">
                     <img class="item__imagem" src="images/logos/python.png" alt="logo python">
-                    <a href="https://www.flaticon.com/br/icones-gratis/pitao" title="pitão ícones" target="_blank">Pitão ícones criados por Freepik - Flaticon</a>
+                    <a class="conhecimento__referencia" href="https://www.flaticon.com/br/icones-gratis/pitao" title="pitão ícones" target="_blank">Pitão ícones criados por Freepik - Flaticon</a>
                 </li>
-                <li class="lista__item">
+                <li class="conhecimentos__item">
                     <img class="item__imagem" src="images/logos/sql-server.png" alt="Sql Server">
-                    <a href="https://www.flaticon.com/free-icons/sql-server" title="sql server icons" target="_blank">Sql server icons created by Freepik - Flaticon</a>
+                    <a class="conhecimento__referencia" href="https://www.flaticon.com/free-icons/sql-server" title="sql server icons" target="_blank">Sql server icons created by Freepik - Flaticon</a>
                 </li>
-                <li class="lista__item">
+                <li class="conhecimentos__item">
                     <img class="item__imagem" src="images/logos/photoshop.png" alt="logo Photoshop">
-                    <a href="https://www.flaticon.com/free-icons/photoshop" title="photoshop icons" target="_blank">Photoshop icons created by Maniprasanth - Flaticon</a>
+                    <a class="conhecimento__referencia" href="https://www.flaticon.com/free-icons/photoshop" title="photoshop icons" target="_blank">Photoshop icons created by Maniprasanth - Flaticon</a>
                 </li>
-                <li class="lista__item">
+                <li class="conhecimentos__item">
                     <img class="item__imagem" src="images/logos/illustrator.png" alt="logo Illustrator">
-                    <a href="https://www.flaticon.com/free-icons/illustrator" title="illustrator icons" target="_blank">Illustrator icons created by Maniprasanth - Flaticon</a>
+                    <a class="conhecimento__referencia" href="https://www.flaticon.com/free-icons/illustrator" title="illustrator icons" target="_blank">Illustrator icons created by Maniprasanth - Flaticon</a>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <div>
-                <h2>Skills</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo odit, aliquid illo voluptatem ipsam qui animi aut expedita consectetur natus, perspiciatis autem ut nulla quos debitis. Quaerat consequuntur corrupti saepe.</p>
-    
-                <h3>Soft Skills</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laboriosam vitae adipisci iusto nulla, eveniet commodi culpa esse sint quia explicabo nihil ad est deleniti ea debitis quo tempora? Qui!</p>
-    
-            </div>
-        </section>
-    
-        <section class="container projetos">
-            <div class="container__projetos">
-                <h2>Projetos para clientes</h2>
-                <ul class="lista_projetos">
-                    <li class="projetos__item">
-                        <img src="images/projetos/SL_030420_28660_03.jpg" alt="">
-                    </li>
-                    <li class="projetos__item">
-                        <img src="images/projetos/SL_030420_28660_03.jpg" alt="">
-                    </li>
-                    <li class="projetos__item">
-                        <img src="images/projetos/SL_030420_28660_03.jpg" alt="">
-                    </li>
-                </ul>
-                <p class="projeto__imagem--referencia">Imagem utilizada: <a href="https://www.freepik.com/vectors/coming-soon">Coming soon vector created by starline - www.freepik.com</a></p>
-            </div>
-            <div class="container__projetos">
-                <h2>Projetos de Estudo</h2>
-                <ul class="lista_projetos">
-                    <li class="projetos__item">
-                        <img src="images/projetosEstudo/SirBarber.jpg" alt="">
-                    </li>
-                    <li class="projetos__item">
-                        <img src="images/projetosEstudo/Lovet.jpg" alt="">
-                    </li>
-                    <li class="projetos__item">
-                        <img src="images/projetosEstudo/MiaBeauty.jpg" alt="">
-                    </li>
-                    <li class="projetos__item">
-                        <img src="images/projetosEstudo/Barbarus.jpg" alt="">
-                    </li>
-                    <li class="projetos__item">
-                        <img src="images/projetosEstudo/AluraPlus.jpg" alt="">
-                    </li>
-                    <li class="projetos__item">
-                        <img src="images/projetosEstudo/AgenciaBold.jpg" alt="">
-                    </li>
-                </ul>
+        <section class="projetos">
+                <div class="projetos__clientes">
+                    <h2 class="projetos__titulo">Projetos para clientes</h2>
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img class="swiper__imagem imagem__estudo" src="images/projetos/SL_030420_28660_03.jpg" alt="Em breve"></div>
+                            <div class="swiper-slide"><img class="swiper__imagem imagem__estudo" src="images/projetos/SL_030420_28660_03.jpg" alt="Em breve"></div>
+                            <div class="swiper-slide"><img class="swiper__imagem imagem__estudo" src="images/projetos/SL_030420_28660_03.jpg" alt="Em breve"></div>
+                            <div class="swiper-slide"><img class="swiper__imagem imagem__estudo" src="images/projetos/SL_030420_28660_03.jpg" alt="Em breve"></div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <p class="projeto__imagem--referencia">Imagem utilizada: <a href="https://www.freepik.com/vectors/coming-soon">Coming soon vector created by starline - www.freepik.com</a></p>
+                </div>
+                <div class="projetos__estudo">
+                    <h2 class="projetos__titulo">Projetos de Estudo</h2>
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><a href="https://landing-page-sir-barber.vercel.app/" target="_blank"><img class="swiper__imagem imagem__estudo" src="images/projetosEstudo/SirBarber.jpg" alt="Landing page da barbearia SirBarber"></a></div>
+                            <div class="swiper-slide"><a href="https://landing-page-lovet.vercel.app/" target="_blank"><img class="swiper__imagem imagem__estudo" src="images/projetosEstudo/Lovet.jpg" alt="Landing page da Lovet"></a></div>
+                            <div class="swiper-slide"><a href="https://landing-page-mia-beauty.vercel.app/" target="_blank"><img class="swiper__imagem imagem__estudo" src="images/projetosEstudo/MiaBeauty.jpg" alt="Landing page da MiaBeauty"></a></div>
+                            <div class="swiper-slide"><a href="https://site-barbearia-fawn.vercel.app/" target="_blank"><img class="swiper__imagem imagem__estudo" src="images/projetosEstudo/Barbarus.jpg" alt="Em breve"></a></div>
+                            <div class="swiper-slide"><a href="https://site-alura-plus-three.vercel.app/" target="_blank"><img class="swiper__imagem imagem__estudo" src="images/projetosEstudo/AluraPlus.jpg" alt="Em breve"></a></div>
+                            <div class="swiper-slide"><a href="https://landing-page-estudo.vercel.app/" target="_blank"><img class="swiper__imagem imagem__estudo" src="images/projetosEstudo/AgenciaBold.jpg" alt="Em breve"></a></div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
             </div>
         </section>
     
@@ -152,5 +136,22 @@
         <h1>LOGO</h1>
         <p>© Copyright 2022 - Jonathan Hora</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        }
+    });
+    </script>
+
 </body>
 </html>
